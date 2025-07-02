@@ -1,14 +1,27 @@
 {
-  "name": "typscript",
+  "name": "learning_ts",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiranpatil02/Typescript.git"
+  },
+  "keywords": [
+    "Typescript"
+  ],
   "author": "Kiran",
   "license": "ISC",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/Kiranpatil02/Typescript/issues"
+  },
+  "homepage": "https://github.com/Kiranpatil02/Typescript#readme",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
 }
